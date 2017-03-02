@@ -3,26 +3,49 @@ git Շպարգալկա
 
 # git clone
 
-```shell
+մեր ըքաութնում ռեպո ա  բացում ու քոփի անում մեր ըքաունթ ուրիշի կոդը
+
+
+```shell 
+$ git clone https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
 # git add 
 
+ափդեյթ ա անում 
+
 ```shell
+$ git clone https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
-# git commit
-```shell
+# git commit 
+
+զուտ սեյվ ա անում
+ 
+``` shell
+$ git clone https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
 # git status
-```shell
+
+ցույց ա տալիս վիճակը
+
+``` shell
+$ git clone https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
 # git push
-```shell
+
+մեր ռեպոյին ա ուղարկում մեր փոփոխած ֆայլերը
+
+``` shell
+$ git clone https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
 # git pull
-```shell
+
+ռեպոյից հետ  ա քաշում
+
+``` shell
+$ git clone https://github.com/iteratehackerspace/cheatsheet.git
 ```
