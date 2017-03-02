@@ -1,4 +1,4 @@
-atomatomJavaScript Շպարգալկա
+JavaScript Շպարգալկա
 --------------------
 
 # For loops
