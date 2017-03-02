@@ -6,11 +6,11 @@ git Շպարգալկա
 Կրկնօրինակում է repository֊ն նոր ստեղծված թղթապանակում, ստեղծում է remote և tracking ճյուղեր ամեն ճյուղի համար, և ստեղծում ու ստուգում է նախնական ճյուղը, որը fork է արվել կրկնօրիկանված repository֊ի ներկայիս ակտիվ ճյուղից։
 
 
-```shell 
+```shell
 $ git clone https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
-# git add 
+# git add
 
 Ֆայլի պարունակությունը ավելացնում է ինդեքսին*։
 Այս հրամանը թարմացնում է ինդեքսը, օգտագործելով աշխատող ծառի ներկայիս պարունակությունը, նախապատրաստելով պարունակությունը հաջորդ commit֊ի համար։ Այն որպես կանոն ավելացնում է արդեն գոյություն ունեցող հասցեների ներկայիս պարունակությունը որպես մի ամբողջություն, բայց որոշ դեպքերում այն նաև կարող է օգտագործվել պարունակության մի մասը փոփոխելու համար, կամ գոյություն չունեցող հասցեները ջնջելու համար։
@@ -20,7 +20,7 @@ $ git clone https://github.com/iteratehackerspace/cheatsheet.git
 $ git add https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
-# git commit 
+# git commit
 
 Ինդեքսի ներկայիս պարունակությունը տեղադրում է նոր փոփոխության(commit) մեջ լոգ հաղորդագրության հետ, որով օգտագործողը բացատրում է փոփոխությունները։
 
@@ -50,16 +50,9 @@ $ git push
 
 # git pull
 
-Fetch է անում և ինտեգրում է ուրիշ repository֊ն կամ լոկալ ճյուղը։
-
-``` shell
-$ git pull https://github.com/iteratehackerspace/cheatsheet.git
+```github.com ից վերցնում է ուրշի կողմից փոփոխած ֆայլը և այդ փոփոխությունները ավելացնում է մեր ֆայլին։
 ```
 
-
-
-
-
-
-
-
+```shell
+$ git pull https://github.com/iteratehackerspace/cheatsheet.git
+```
