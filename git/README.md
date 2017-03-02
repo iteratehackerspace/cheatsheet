@@ -3,7 +3,7 @@ git Շպարգալկա
 
 # git clone
 
-մեր ըքաութնում ռեպո ա  բացում ու քոփի անում մեր ըքաունթ ուրիշի կոդը
+Կրկնօրինակում է repository֊ն նոր ստեղծված թղթապանակում, ստեղծում է remote և tracking ճյուղեր ամեն ճյուղի համար, և ստեղծում ու ստուգում է նախնական ճյուղը, որը fork է արվել կրկնօրիկանված repository֊ի ներկայիս ակտիվ ճյուղից։
 
 
 ```shell 
@@ -12,40 +12,54 @@ $ git clone https://github.com/iteratehackerspace/cheatsheet.git
 
 # git add 
 
-ափդեյթ ա անում 
+Ֆայլի պարունակությունը ավելացնում է ինդեքսին*։
+Այս հրամանը թարմացնում է ինդեքսը, օգտագործելով աշխատող ծառի ներկայիս պարունակությունը, նախապատրաստելով պարունակությունը հաջորդ commit֊ի համար։ Այն որպես կանոն ավելացնում է արդեն գոյություն ունեցող հասցեների ներկայիս պարունակությունը որպես մի ամբողջություն, բայց որոշ դեպքերում այն նաև կարող է օգտագործվել պարունակության մի մասը փոփոխելու համար, կամ գոյություն չունեցող հասցեները ջնջելու համար։
+* git֊ում ինդեքսը այն տեղն է, որտեղ պահվում են այն ֆայլերը, որոնք դուք ցանկանում եք commit անել repository։ Ինդեքսը նաև հայտնի է որպես քեշ։ Նախքան ֆայլերը commit կանեք repository, պետք է նախապես այդ ֆայլերը տեղադրեք git ինդեքսում։
 
 ```shell
-$ git clone https://github.com/iteratehackerspace/cheatsheet.git
+$ git add https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
 # git commit 
 
-զուտ սեյվ ա անում
- 
+Ինդեքսի ներկայիս պարունակությունը տեղադրում է նոր փոփոխության(commit) մեջ լոգ հաղորդագրության հետ, որով օգտագործողը բացատրում է փոփոխությունները։
+
 ``` shell
-$ git clone https://github.com/iteratehackerspace/cheatsheet.git
+$ git commit https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
 # git status
 
-ցույց ա տալիս վիճակը
+Ցույց է տալիս գործող ծառի վիճակը։
+Ցույց է տալիս՝
+ - հասցեները, որոնք տարբեր են ինդեքս ֆայլում և գործող HEAD փոփոխության(commit) մեջ,
+ - հասցեները, որոնք տարբեր են ինդեքս ֆայլում և գործող ծառում,
+ - գործող ծառի հասցեները, որոնց Git֊ը չի հետևել (և որոնք արհամարհված չեն gitignore֊ի կողմից)։
 
 ``` shell
-$ git clone https://github.com/iteratehackerspace/cheatsheet.git
+$ git status [<options>…​] [--] https://github.com/iteratehackerspace/cheatsheet.git
 ```
 
 # git push
 
-մեր ռեպոյին ա ուղարկում մեր փոփոխած ֆայլերը
+Թարմացնում է remote հասցեները, օգտագործելով լոկալ հասցեները։
 
 ``` shell
-$ git clone https://github.com/iteratehackerspace/cheatsheet.git
+$ git push
 ```
 
 # git pull
 
-ռեպոյից հետ  ա քաշում
+Fetch է անում և ինտեգրում է ուրիշ repository֊ն կամ լոկալ ճյուղը։
 
 ``` shell
-$ git clone https://github.com/iteratehackerspace/cheatsheet.git
+$ git pull https://github.com/iteratehackerspace/cheatsheet.git
 ```
+
+
+
+
+
+
+
+
