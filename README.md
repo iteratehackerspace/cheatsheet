@@ -11,7 +11,7 @@
 - [JavaScript](/javascript)
 
 #### Ծրագրավորային ապահովումներ
-- [Git](/git-version-of-otanim) (by [@otanim](https://github.com/TigranGhazaryan))
+- [Git](/git-version-of-otanim) (by [@otanim](https://github.com/otanim))
 - [Git](/git) (by [@TigranGhazaryan](https://github.com/TigranGhazaryan))
 - [npm](/npm)
 
