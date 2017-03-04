@@ -5,12 +5,21 @@
 
 ### Ցանկ
 
+#### Ծրագրավորման լեզուներ
 - [C++](/c-plus-plus)
-- [GIT](/git)
-- [JavaScript](/javascript)
 - [Python](/python)
+- [JavaScript](/javascript)
+
+#### Ծրագրավորային ապահովումներ
+- [Git](/git-version-of-otanim) (by [@otanim](https://github.com/TigranGhazaryan))
+- [Git](/git) (by [@TigranGhazaryan](https://github.com/TigranGhazaryan))
+- [npm](/npm)
+
+#### Ծրագրավորման տեխնոլոգիաներ
 - [React.js](/react)
-- [Linux shell](/C%2B%2B)
+
+#### ՕՀ (Օպերացիոն համակարգեր)
+- [Linux shell](/shell)
 
 ### Ներդրման կատարում (Contributing) 
 Եթե հայտբարերել եք սխալներ կամ ունեք առաջարկներ, կարող եք կատարել pull request (նույն ինքը «ընդունման հարցում»), կամ բացեք [issue](https://github.com/iteratehackerspace/cheatsheet/issues) եւ գրեք հարցման նկարագրությունը։  
