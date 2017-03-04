@@ -32,7 +32,7 @@ class Queue {
     if(this.count > 0) {  
       this.count -= 1  
     } 
-    //  եթե ոչ, կոնսոլում տպում է, որ դատարկ queue֊ից իհարկե հնարավոր չէ էլեմենտ հանել  
+    //  եթե ոչ, նետում է error, նշելով, որ դատարկ queue֊ից իհարկե հնարավոր չէ էլեմենտ հանել  
     else {  
       throw new Error("Can't dequeue from empty queue.")  
     }  
@@ -42,6 +42,7 @@ class Queue {
   
   // վերադարձնում է queue֊ի առաջին էլեմենտը  
   peek() {  
+    // եթե queue-ն դարարկ է, նետում է error
     if (this.count < 1) {
       throw new Error("Queue empty. Can't return peek element.")
     }
@@ -49,7 +50,8 @@ class Queue {
   }  
   
   // վերադարձնում է queue֊ի վերջին էլեմենտը  
-  back() {  
+  back() { 
+    // եթե queue-ն դարարկ է, նետում է error
     if (this.count < 1) {
       throw new Error("Queue empty. Can't return back element.")
     }
