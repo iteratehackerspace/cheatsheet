@@ -13,8 +13,9 @@
 - [Linux shell](/C%2B%2B)
 
 ### Ներդրման կատարում (Contributing) 
-Եթե հայտբարերել եք սխալներ կամ ունեք առաջարկներ, կարող եք կատարել pull request (նույն ինքը «ընդունման հարցում»), կամ բացեք [issue](https://github.com/iteratehackerspace/cheatsheet/issues) եւ գրեք հարցման նկարագրությունը։
+Եթե հայտբարերել եք սխալներ կամ ունեք առաջարկներ, կարող եք կատարել pull request (նույն ինքը «ընդունման հարցում»), կամ բացեք [issue](https://github.com/iteratehackerspace/cheatsheet/issues) եւ գրեք հարցման նկարագրությունը։  
 (*նշում․ եթե չգիտեք թե ինչպես կատարել pull request֊ներ, կարդացեք [այստեղ](https://help.github.com/articles/about-pull-requests/)*)
+
 -----------------------
 This repository is a central place to see how to quickly do common tasks and programming requirements in different programming languages and environments.
 
