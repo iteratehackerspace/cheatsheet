@@ -10,6 +10,8 @@ Python3 Շպարգալկա
 
 # Functions
 
+
+
 ```python
 def speak(word):
 	new_version = word.upper()
