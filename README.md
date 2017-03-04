@@ -9,7 +9,7 @@
 - [Python](/python)
 - [JavaScript](/javascript)
 
-#### Ծրագրային ապահովումներ
+#### <b>Ծրագրային ապահովումներ</b>
 - [Git](/git)
 - [npm](/npm)
 
@@ -18,6 +18,10 @@
 
 #### <b>ՕՀ (Օպերացիոն համակարգեր)</b>
 - [Linux shell](/shell)
+
+#### <b>Ալգորիթմներ</b>
+- [C++](/algorithms/c-plus-plus)
+- [JavaScript](/algorithms/javascript)
 
 ### <b>Ներդրման կատարում (Contributing)</b> 
 Եթե հայտնաբերել եք սխալներ կամ ունեք առաջարկներ, կարող եք կատարել pull request (նույն ինքը «ընդունման հարցում»), կամ բացեք [issue](https://github.com/iteratehackerspace/cheatsheet/issues) եւ գրեք հարցման նկարագրությունը։  
