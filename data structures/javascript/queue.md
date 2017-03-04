@@ -58,7 +58,7 @@ class Queue {
     return this.elements[this.elements.length - 1]  
   }  
 
-  // վերադարձնում է queue֊ի երկարությունը  
+  // վերադարձնում է queue֊ի էլեմենտների քանակը
   size() {  
     return this.count  
   }  
