@@ -1,0 +1,49 @@
+// Ներմուծված ECMAScript 2015 ստանդարտում, class֊ը "սինտակտիկ շաքար" է  նախկինում կիրառվող պրոտոտիպերի վրա հիմնված ժառանգականության վրա
+
+class Queue {
+  // constructor մեթոդը հատուկ մեթոդ է կլասսով ստեղծված օբյեկտը ինիցիալիզացնելու համար։ Ամեն կլասսում հնարավոր է հայտարարել միայն մեկ constructor
+  
+  constructor() {
+    // տվյալ կլասսի համար ստեղծում է դատարկ array
+    this.elements = new Array()
+    // վերագրում է 0 տվյալ կլասսի count֊ին 
+    this.count = 0
+  }
+  
+  // կլասսի մեթոդ, որը վերցնում է մեկ արգումենտ element անունով
+  enqueue(element) {
+    // վերևում հայտարարված elements array֊ին ավելացնում է նոր էլեմենտ 
+    this.elements.push(element)
+    // ինչից հետո թարմացնում է array֊ում գտնվող էլեմենտների թիվը խորհրդանշող փոփոխականը
+    this.count += 1
+  }
+  
+  // կլասսի մեթոդ
+  dequeue() {
+    // եթե count փոփոխականի արժեքը զրոյից բարձր է, նվազեցնում է այն մեկով
+    if(this.count > 0) {
+      this.count -= 1
+    } 
+    //  եթե ոչ, կոնսոլում տպում է, որ դատարկ queue֊ից իհարկե հնարավոր չէ էլեմենտ հանել
+    else {
+    	console.log("Can't dequeue from empty queue")
+    }
+    // և հանում array֊ի վերջին էլէմենտը
+    return this.elements.shift()
+  }
+  
+  // վերադարձնում է առաջին էլէմենտը
+  peek() { 
+    return this.elements[0]
+  }
+  
+  // վերադարձնում է վերջին էլեմենտը
+  back() {
+    return this.elements[this.elements.length - 1]
+  }
+
+  // վերադարձնում է queue֊ի երկարությունը 
+  length() {
+    return this.count
+  }
+}
