@@ -5,7 +5,7 @@
 [bubble.cpp](./bubble.cpp) (պղպջակ)
 
 ### <b>Ինչպես կոմպիլացնել</b>
-Ծրագիրը կարելի է կոմպիլացնել [g++](https://linux.die.net/man/1/g++) կամ [clang](https://clang.llvm.org/)֊ով։ Ներքոնշյակ օրինակում նշված է թե ինչպես կարել է կոմպիլացնել **bubble.cpp** ֆայլը [c++14](https://gcc.gnu.org/projects/cxx-status.html#cxx14) ստանդարտով, որի արդյունքում ելքային ֆայլի անվանումը կլինի **program**։
+Ծրագիրը կարելի է կոմպիլացնել [g++](https://linux.die.net/man/1/g++)-ով կամ [clang](https://clang.llvm.org/)֊ով։ Ներքոնշյակ օրինակում նշված է թե ինչպես կարել է կոմպիլացնել **bubble.cpp** ֆայլը [c++14](https://gcc.gnu.org/projects/cxx-status.html#cxx14) ստանդարտով, որի արդյունքում ելքային ֆայլի անվանումը կլինի **program**։
 ```bash
 $ g++ -std=c++14 bubble.cpp -o program
 ```
