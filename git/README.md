@@ -16,14 +16,14 @@
 ### Ֆայլերի վերբեռնում
 Հրաման  | Նշանակություն
 ------------- | -------------
-**git pull**  | commit արված ֆայլերն ուղարկում է remote **master** branch
-**git pull** *origin* *branch*  | commit արված ֆայլերն ուղարկում է remote **branch** branch
+**git push**  | commit արված ֆայլերն ուղարկում է remote **master** branch
+**git push** *origin* *branch*  | commit արված ֆայլերն ուղարկում է remote **branch** branch
 
 ### Ֆայլերի ներբեռնում
 Հրաման  | Նշանակություն
 ------------- | -------------
-**git push**  | remote **master** branch-ից բեռնում է փոփոխությունները  
-**git push** *origin* *branch*  | remote **branch** branch-ից բեռնում է փոփոխությունները  
+**git pull**  | remote **master** branch-ից բեռնում է փոփոխությունները  
+**git pull** *origin* *branch*  | remote **branch** branch-ից բեռնում է փոփոխությունները  
 
 ### Branch-ների փոխատեղում
 Հրաման  | Նշանակություն
@@ -31,7 +31,7 @@
 **git checkout -b** *branch*  | ստեղծում է **branch** անվանումով նոր branch  
 **git checkout** *branch*  | անցում է կատարում առկա **branch** անվանումով branch  
 
-###Այլ հրամաններ
+### Այլ հրամաններ
 Հրաման  | Նշանակություն
 ------------- | -------------
 **git clone** *repositoryURL*  | կլոնավորում է **repositoryURL** հասցեից remote master branch
