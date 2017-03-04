@@ -44,7 +44,7 @@
 ## Պարզագույն հրամանների օգտագործման օրինակներ
 ### Repository-ի բեռնում եւ նախապատրաստում աշխատանքի
 ```bash
-git clone https://github.com/otanim/armenian-tutorials
+git clone https://github.com/iteratehackerspace/cheatsheet
 cd repository
 ```
 ### փոփոխությունների կատարում եւ վերբեռնում
