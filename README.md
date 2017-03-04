@@ -9,9 +9,8 @@
 - [Python](/python)
 - [JavaScript](/javascript)
 
-#### <b>Ծրագրային ապահովումներ</b>
-- [Git](/git-version-of-otanim) (by [@otanim](https://github.com/otanim))
-- [Git](/git) (by [@TigranGhazaryan](https://github.com/TigranGhazaryan))
+#### Ծրագրային ապահովումներ
+- [Git](/git)
 - [npm](/npm)
 
 #### <b>Ծրագրավորման տեխնոլոգիաներ</b>
