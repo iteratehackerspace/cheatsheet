@@ -13,7 +13,7 @@ class Queue {
   // Ամեն կլասսում հնարավոր է հայտարարել միայն մեկ constructor
   constructor() {  
     // տվյալ կլասսի համար ստեղծում է դատարկ array  
-    this.elements = new Array()  
+    this.elements = []  
     // վերագրում է 0 տվյալ կլասսի count֊ին   
     this.count = 0  
   }  
@@ -32,26 +32,34 @@ class Queue {
     if(this.count > 0) {  
       this.count -= 1  
     } 
-    //  եթե ոչ, կոնսոլում տպում է, որ դատարկ queue֊ից իհարկե հնարավոր չէ էլեմենտ հանել  
+    //  եթե ոչ, նետում է error, նշելով, որ դատարկ queue֊ից իհարկե հնարավոր չէ էլեմենտ հանել  
     else {  
-      console.log("Can't dequeue from empty queue")  
+      throw new Error("Can't dequeue from empty queue.")  
     }  
     // և հանում array֊ի վերջին էլէմենտը  
-    return this.elements.shift()  
+    this.elements.shift()  
   }  
   
   // վերադարձնում է queue֊ի առաջին էլեմենտը  
   peek() {  
+    // եթե queue-ն դարարկ է, նետում է error
+    if (this.count < 1) {
+      throw new Error("Queue empty. Can't return peek element.")
+    }
     return this.elements[0]  
   }  
   
   // վերադարձնում է queue֊ի վերջին էլեմենտը  
-  back() {  
+  back() { 
+    // եթե queue-ն դարարկ է, նետում է error
+    if (this.count < 1) {
+      throw new Error("Queue empty. Can't return back element.")
+    }
     return this.elements[this.elements.length - 1]  
   }  
 
-  // վերադարձնում է queue֊ի երկարությունը  
-  length() {  
+  // վերադարձնում է queue֊ի էլեմենտների քանակը
+  size() {  
     return this.count  
   }  
 }  
