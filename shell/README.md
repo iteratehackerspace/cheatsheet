@@ -22,13 +22,13 @@
 **ls** *directory* | LiSt | Ցուցադրում է նշված պանակում եղած բոլոր ֆայլերը և պանակները։
 **whoami** | WHO AM I | Ցուցադրում է տվյալ օգտատիրոջ անվանումը։
 **pwd** | Print Working Directory | Ցուցադրում է տվյալ պանակի բացարձակ հասցեն։
-**grep** *text* | Globally search a Regular Expression and Print | Որոնում է տրված տեքստը։
-**man** *program name* | MANual | Բացում է տվյալ ծրագրի օգտատիրոջ ձեռնարկը։ Շատ օգտակար է որևէ նոր հրաման սովորելիս։
-**su** *user name* | Switch User | Թույլ է տալիս փոխել օգտատիրոջը։
-**sudo** *<command>* | Super User DO | Կատարում է *<command>* հրամանը root իրավունքներով։
+**grep** *\<text\>* | Globally search a Regular Expression and Print | Որոնում է տրված *\<text\>* տեքստը։
+**man** *\<program_name\>* | MANual | Բացում է տվյալ *\<program_name\>* ծրագրի օգտատիրոջ ձեռնարկը։ Շատ օգտակար է որևէ նոր հրաման սովորելիս։
+**su** *\<user_name\>* | Switch User | Թույլ է տալիս փոխել օգտատիրոջը *\<user_name\>*-ի։
+**sudo** *\<command\>* | Super User DO | Կատարում է *\<command\>* հրամանը root իրավունքներով։
 **sudo su** | Super User DO Switch User | Փոխում է օգտատիրոջը շելլում դեպի սուպեր օգտատեր։
 **ps** | Process Status | Ցույց է տալիս տվյալ պահին կատարվող պրոցեսսների ցուցակը։
-**kill** *<process_id>* կամ *<process_name>* | KILL | Դադարեցնում է նշված պրոցեսի աշխատանքը՝ ըստ իդենտիֆիկատոր կոդի կամ անվանման։
+**kill** *\<process_id\>* կամ *\<process_name\>* | KILL | Դադարեցնում է նշված պրոցեսի աշխատանքը՝ ըստ *\<process_id\>* իդենտիֆիկատոր կոդի կամ *\<process_name\>* անվանման։
 (*նշում․ Ներքևում մեծատառերով են գրված այն տառերը որոնք կազմում են տվյալ հրամանի հապավումը*)
 
 ### <b>Վերաուղղորդող օպերատորներ</b>
