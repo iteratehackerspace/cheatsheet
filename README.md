@@ -5,9 +5,9 @@
 ### <b>Ցանկ</b>
 
 #### <b>Ծրագրավորման լեզուներ</b>
-- [C++](/c-plus-plus)
-- [Python](/python)
-- [JavaScript](/javascript)
+- [C++](/programming-languages/c-plus-plus)
+- [Python](/programming-languages/python)
+- [JavaScript](/programming-languages/javascript)
 
 #### <b>Ծրագրային ապահովումներ</b>
 - [Git](/git)
