@@ -9,6 +9,10 @@
 - [Python](/programming-languages/python)
 - [JavaScript](/programming-languages/javascript)
 
+#### <b>Փաթեթների կառավարիչներ</b>
+- [npm](/package-managers/npm)
+- [yarn](/package-managers/yarn)	
+
 #### <b>Ալգորիթմներ</b>
 - [C++](/algorithms/c-plus-plus)
 - [JavaScript](/algorithms/javascript)
