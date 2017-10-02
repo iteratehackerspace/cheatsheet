@@ -1,0 +1,68 @@
+﻿@model IEnumerable<UserTable.Models.User>
+
+@{
+    ViewBag.Title = "GetAll";
+}
+
+<h2>All Users</h2>
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/CustomStyles.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-3.2.1.min.js"></script>
+<script src="~/Scripts/jquery-ui.js"></script>
+<script src="~/Scripts/RowSorter.js"></script>
+
+<table class="col-lg-12 fixed" id="user-table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+            {
+            <tr>
+                <td class="range-pointer" value="@item.Id">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Age)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "delete-btn" })
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3"><button type="button" style="float: right;" class="btn-success" onclick="saveRange();">Save Range</button></td>
+        </tr>
+    </tfoot>
+</table>
+<script type="text/javascript">
+    RowSorter("#user-table");
+    function saveRange() {
+        var listOfUsers = [];
+
+        $(".range-pointer").each(function () {
+            listOfUsers.push($(this).attr('value'));
+        });
+
+        $.ajax({
+            type: "POST",
+            url: "User/Rearrange",
+            data: { UserIds: listOfUsers },
+            success: function (msg) {
+                alert("Saved successfully!");
+            }
+        });
+    }
+</script>

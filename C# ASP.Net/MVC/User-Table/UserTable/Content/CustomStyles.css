@@ -1,0 +1,35 @@
+﻿table {
+    width: 400px;
+    font-size: 14px;
+    font-family: tahoma, arial, sans-serif;
+}
+
+    table th {
+        color: #5cb85c;
+    }
+
+    table thead th {
+        background-color: #fff4f4;
+        padding: 5px 8px;
+    }
+
+    table td {
+        padding: 5px 8px;
+    }
+
+    table tr:hover {
+        background-color: #fff4f4;
+        padding: 5px 8px;
+    }
+
+    table.sorting-table {
+        cursor: move;
+    }
+
+    table tr.sorting-row td {
+        background-color: #8b8;
+    }
+
+.delete-btn {
+    color: red;
+}
